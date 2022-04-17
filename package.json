@@ -1,0 +1,22 @@
+{
+  "name": "imtixon-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "graphql": "^15.8.0",
+    "moment": "^2.29.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.0.6",
+    "sequelize": "^6.18.0"
+  }
+}
